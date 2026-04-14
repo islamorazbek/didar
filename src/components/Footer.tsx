@@ -58,6 +58,19 @@ export default function Footer() {
           transition={{ duration: 2.4, repeat: Infinity }}
           aria-hidden
         >♡</motion.span>
+
+        {/* Hosts */}
+        <div className="mt-4 flex flex-col items-center gap-1.5">
+          <span className="h-px w-16" style={{ background: "rgba(201,164,82,.25)" }} />
+          <p className="font-sans text-[0.72rem] tracking-[0.35em] uppercase font-medium"
+            style={{ color: "rgba(201,164,82,.5)" }}>
+            Той иелері
+          </p>
+          <p className="font-serif italic text-base"
+            style={{ color: "rgb(255, 255, 255)" }}>
+            Ерлан &amp; Гүлсара
+          </p>
+        </div>
       </motion.div>
     </footer>
   );
