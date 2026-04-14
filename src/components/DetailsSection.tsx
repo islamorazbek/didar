@@ -16,7 +16,7 @@ const cards = [
   { Icon: Clock,    label: "Уақыты", title: "18:00",           sub: "Қонақтар 17:30-дан" },
   {
     Icon: MapPin, label: "Орны", title: "Hanshaiym Hall",
-    sub:  "Райымбек батыр көшесі, 145а,\nБесағаш ауылы, Талғар ауданы,\nАлматы облысы",
+    sub:  "Райымбек батыр көшесі, 145а,\nБесағаш",
     link: "https://2gis.kz/almaty/geo/70000001041557578",
   },
 ];
